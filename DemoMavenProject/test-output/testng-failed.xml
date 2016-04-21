@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [SampleMavenTestNg]" parallel="tests">
+  <parameter name="Browser" value="firefox"/>
+  <test name="SampleMavenTestNgtest(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="kaplan.DemoMavenProject.NewTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- kaplan.DemoMavenProject.NewTest -->
+    </classes>
+  </test> <!-- SampleMavenTestNgtest(failed) -->
+</suite> <!-- Failed suite [SampleMavenTestNg] -->

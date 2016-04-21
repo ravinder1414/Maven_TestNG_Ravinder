@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SampleMavenTestNg" parallel="tests" thread-count="2">
+    <test name="SampleMavenTestNgtest">
+    <parameter name="Browser" value="firefox"/>
+    <classes>     
+      <class name = "kaplan.DemoMavenProject.NewTest" />
+    </classes>
+    </test>
+ </suite>
